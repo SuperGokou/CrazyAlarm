@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Alarm" representedClassName="Alarm" syncable="YES" codeGenerationType="class">
+        <attribute name="enable" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Citytime" representedClassName="Citytime" syncable="YES" codeGenerationType="class">
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Flighttime" representedClassName="Flighttime" syncable="YES" codeGenerationType="class">
+        <attribute name="arriveairport" optional="YES" attributeType="String"/>
+        <attribute name="arrivecity" optional="YES" attributeType="String"/>
+        <attribute name="arrivetime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="depairport" optional="YES" attributeType="String"/>
+        <attribute name="departcity" optional="YES" attributeType="String" defaultValueString=" Chicago"/>
+        <attribute name="deptime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="flightnumber" optional="YES" attributeType="String"/>
+        <attribute name="gate" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="terminal" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Alarm" positionX="-54" positionY="18" width="128" height="74"/>
+        <element name="Citytime" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="Flighttime" positionX="-54" positionY="27" width="128" height="194"/>
+    </elements>
+</model>
